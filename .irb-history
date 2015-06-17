@@ -1,0 +1,50 @@
+query "org.apache.cordova.CordovaWebView css:'#userName'"
+query "org.apache.cordova.CordovaWebView css:'#submit'"
+query "org.apache.cordova.CordovaWebView css:'*'"
+query "org.apache.cordova.CordovaWebView css:'*'"
+query "org.apache.cordova.CordovaWebView css:'.ui-input-text'"
+star
+'
+'
+query "org.apache.cordova.CordovaWebView css:'.ui-input-text'"
+exit
+start_test_server_in_background
+query "org.apache.cordova.CordovaWebView css:'.ui-input-text'"
+query "org.apache.cordova.CordovaWebView css:'userName'"
+query "org.apache.cordova.CordovaWebView css:'.ui-input-text#userName'"
+query "org.apache.cordova.CordovaWebView css:'.ui-input-text#pwd'"
+query "org.apache.cordova.CordovaWebView css:'.ui-content'"
+query "org.apache.cordova.CordovaWebView css:'.ui-btn'"
+query "org.apache.cordova.CordovaWebView css:'.ui-btn#Login'"
+query "org.apache.cordova.CordovaWebView css:'.ui-btn#'"
+query "org.apache.cordova.CordovaWebView css:'.ui-btn'"
+query "org.apache.cordova.CordovaWebView css:'.ui-submit'"
+query "org.apache.cordova.CordovaWebView css:'*'"
+query "org.apache.cordova.CordovaWebView css:'ui-*'"
+query "org.apache.cordova.CordovaWebView css:'.ui-*'"
+query "org.apache.cordova.CordovaWebView css:'.ui-submit'"
+query "org.apache.cordova.CordovaWebView css:'.ui-submit'"
+query "org.apache.cordova.CordovaWebView css:'.ui-btn'"
+"
+*
+"
+query "org.apache.cordova.CordovaWebView css:'.ui-btn'"
++
+*
+*
+start_test_server_in_background
+start_test_server_in_background
+query "org.apache.cordova.CordovaWebView css:'.ui-btn'"
+query "org.apache.cordova.CordovaWebView css:'.ui-input'"
+query "org.apache.cordova.CordovaWebView css:'.ui-input-text'"
+query "org.apache.cordova.CordovaWebView css:'login'"
+query "org.apache.cordova.CordovaWebView css:'#login'"
+query "org.apache.cordova.CordovaWebView css:'#login.userName'"
+query "org.apache.cordova.CordovaWebView css:'login.userName'"
+query "org.apache.cordova.CordovaWebView css:'logon.userName'"
+query "org.apache.cordova.CordovaWebView css:'.ui-submit'"
+query "org.apache.cordova.CordovaWebView css:'.ui-input-text'"
+query "org.apache.cordova.CordovaWebView css:'*'"
+*
+exit
+exit

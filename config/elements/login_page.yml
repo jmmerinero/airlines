@@ -1,0 +1,23 @@
+user:
+  calabash:
+    android: "cordovaWebView css:'#userName'"
+    ios: "* marked:'Username / Email'"
+  appium:
+    android: "org.wordpress.android:id/userName"
+    ios: "Username / Email"
+
+pass:
+  calabash:
+    android: "org.apache.cordova.CordovaWebView css:'#pwd'"
+    ios: "* marked:'Password'"
+  appium:
+    android: "org.wordpress.android:id/pwd"
+    ios: "Password"
+
+sign_in:
+  calabash:
+    android: "org.apache.cordova.CordovaWebView css:'.ui-btn-hidden'"
+    ios: "button marked:'Sign In'"
+  appium:
+    android: "org.wordpress.android:id/submit"
+    ios: "Sign In"
