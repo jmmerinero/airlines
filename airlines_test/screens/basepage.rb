@@ -26,4 +26,3 @@ class BasePage
     @list_of_elements = YAML.load(File.read("#{File.expand_path File.dirname(__FILE__)}/../../config/elements/#{file}.yml"))
   end
 end
-

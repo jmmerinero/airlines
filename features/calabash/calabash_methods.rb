@@ -9,7 +9,6 @@ module CalabashMethods
   end
 
   def exists?(element)
-    query("org.apache.cordova.engine.SystemWebView css:'*'", 'textContent').include? element
+    query(element)
   end
 end
-

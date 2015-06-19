@@ -10,8 +10,11 @@ class Login < BasePage
     press('pass')
     fill('pass', pass)
     press('sign_in')
-    Post.new(@platform, @env)
+#    Post.new(@platform, @env)
   end
 
+  def mainpage
+    MainPage.new(@platform, @env)
+  end 
 end
 
