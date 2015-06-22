@@ -5,12 +5,11 @@ class Login < BasePage
   end
 
   def enter_credentials(user, pass)
-    press('user')
-    fill('user', user)
-    press('pass')
-    fill('pass', pass)
+    #press('user')
+    #fill('user', user)
+    #press('pass')
+    #fill('pass', pass)
     press('sign_in')
-#    Post.new(@platform, @env)
   end
 
   def mainpage
