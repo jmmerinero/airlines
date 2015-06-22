@@ -1,0 +1,56 @@
+hello:
+  calabash:
+    android: "cordovaWebView css:'.ui-title'"
+    ios: ""
+  appium:
+    android: ""
+    ios: ""
+
+synopsis:
+  calabash:
+    android: "cordovaWebView css:'.info-wrapper'"
+    ios: ""
+  appium:
+    android: ""
+    ios: ""
+
+my_trips:
+  calabash:
+    android: "cordovaWebView css:'.ui-link-inherit' textContent:'\n\t\t\t\t\t\t\tMyTrips 2\n\t\t\t\t\t\t'"
+    ios: ""
+  appium:
+    android: ""
+    ios: ""
+    
+flight_status:
+  calabash:
+    android: "cordovaWebView css:'.ui-link-inherit' textContent:'Flight Status'"
+    ios: ""
+  appium:
+    android: ""
+    ios: ""
+    
+track_your_bag:
+  calabash:
+    android: "cordovaWebView css:'.ui-link-inherit' textContent:'Track your bag'"
+    ios: ""
+  appium:
+    android: ""
+    ios: ""
+    
+mileage_program_progress:
+  calabash:
+    android: "cordovaWebView css:'.ui-link-inherit' textContent:'Mileage program progress'"
+    ios: ""
+  appium:
+    android: ""
+    ios: ""
+    
+settings:
+  calabash:
+    android: "cordovaWebView css:'.ui-link-inherit' textContent:'Settings'"
+    ios: ""
+  appium:
+    android: ""
+    ios: ""
+    

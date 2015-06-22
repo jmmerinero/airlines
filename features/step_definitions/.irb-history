@@ -1,0 +1,25 @@
+clear_app_data
+shutdown_test_server
+shutdown_test_server
+shutdown_test_server
+shutdown_test_server
+start_test_server_in_background
+shutdown_test_server
+shutdown_test_server
+shutdown_test_server
+start_test_server_in_background
+shutdown_test_server
+quit
+query '*'
+shutdown_test_server
+shutdown_test_server
+shutdown_test_server
+shutdown_test_server
+start_test_server_in_background
+query '*'
+query "cordovaWebView css:'*'"
+query "cordovaWebView css:'.ui-link-inherit'"
+query "cordovaWebView css:'.ui-link-inherit' textContent:'MyTrips'"
+query "cordovaWebView css:'.ui-link-inherit' textContent:'\n\t\t\t\t\t\t\tMyTrips 2\n\t\t\t\t\t\t'"
+query "cordovaWebView css:'.ui-link-inherit'"
+quit
