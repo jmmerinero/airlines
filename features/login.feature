@@ -7,4 +7,3 @@ Feature: Login.
     Given I am about to login.
     When I enter valid credentials.
     Then I can see my main page.
-

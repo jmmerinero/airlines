@@ -1,6 +1,6 @@
 namespace :calabash do
   task :android do
-     exec('calabash-android resign apps/airlines_sample_app.apk; bundle exec calabash-android run apps/airlines_sample_app.apk -p android-calabash')
+     exec('calabash-android resign apps/airlines_sample_app.apk; bundle exec calabash-android run apps/airlines_sample_app.apk --profile android-calabash')
   end
 
   task :ios do

@@ -18,7 +18,9 @@ Before do |scenario|
   start_test_server_in_background
 end
 
-After do
+=begin
+After do |scenario|
   shutdown_test_server
 end
+=end
 
