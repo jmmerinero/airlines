@@ -1,0 +1,2 @@
+query "cordovaWebView css:'*'"
+query  "cordovaWebView css:'.ui-link-inherit' textContent:'Settings'"
