@@ -1,0 +1,32 @@
+all_trips:
+  calabash:
+    android: "cordovaWebView css:'#myTripsListView'"
+    ios:
+  appium:
+    android:
+    ios:
+
+sea_to_bos:
+  calabash:
+    android: "cordovaWebView css:'.ui-link-inherit' textContent:'SEA to BOS'"
+    ios:
+  appium:
+    android:
+    ios:
+
+sea_to_san:
+  calabash:
+    android: "cordovaWebView css:'.ui-link-inherit' textContent:'SEA to SAN'"
+    ios:
+  appium:
+    android:
+    ios:
+
+#back:
+#  calabash:
+#    android: "cordovaWebView css:'.ui-btn-left'"
+#    ios:
+#  appium:
+#    android:
+#    ios:
+
