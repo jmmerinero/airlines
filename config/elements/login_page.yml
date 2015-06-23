@@ -19,6 +19,5 @@ sign_in:
     android: "org.apache.cordova.CordovaWebView css:'.ui-btn-hidden'"
     ios: ""
   appium:
-    android: "//android.widget.LinearLayout[1]"
-    #android: "//android.webkit.WebView[1]"
+    android: "org.apache.cordova.CordovaWebView css:'.ui-btn-hidden'"
     ios: ""
