@@ -4,12 +4,8 @@ class Airlines
     @env = env
   end
 
-  def search
-    Search.new(@platform, @env)
-  end
-
-  def login
-    Login.new(@platform, @env)
+  def login_page
+    LoginPage.new(@platform, @env)
   end
 end
 
