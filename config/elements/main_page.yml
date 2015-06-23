@@ -1,11 +1,3 @@
-hello:
-  calabash:
-    android: "cordovaWebView css:'.ui-title'"
-    ios: ""
-  appium:
-    android: ""
-    ios: ""
-
 synopsis:
   calabash:
     android: "cordovaWebView css:'.info-wrapper'"
